@@ -46,6 +46,6 @@ Hàm Rastrigin được định nghĩa như sau: f(x) = 10D + Σ(x_i² − 10cos
 ```bash
 pip install numpy matplotlib
 ---
-### 2. Chạy thuật toán
+ 2. Chạy thuật toán
 python chaotic_gwo.py
 
