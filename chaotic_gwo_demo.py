@@ -156,7 +156,7 @@ def plot_convergence(convergence_history, title="Đường Cong Hội Tụ - Cha
 
 if __name__ == "__main__":
     print("\n" + "="*60)
-    print(" "*15 + "CHAOTIC GWO DEMONSTRATION")
+    print(" "*15 + "CHAOTIC GWO TRÊN HÀM RASTRIGIN")
     print("="*60 + "\n")
     
     DIMENSION = 10
