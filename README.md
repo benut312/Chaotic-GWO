@@ -1,6 +1,6 @@
-# 🐺 Chaotic Grey Wolf Optimizer (CGWO) cho hàm Rastrigin
+# Chaotic Grey Wolf Optimizer (CGWO) cho hàm Rastrigin
 
- **Chaotic Grey Wolf Optimizer (CGWO)** – một biến thể cải tiến của Grey Wolf Optimizer sử dụng **Logistic chaotic map** và **vector chaos theo từng chiều**, áp dụng cho **bài toán tối ưu hàm Rastrigin**.
+ **Chaotic Grey Wolf Optimizer (CGWO)** – một biến thể cải tiến của Grey Wolf Optimizer sử dụng Logistic chaotic map và vector chaos theo từng chiều, áp dụng cho bài toán tối ưu hàm Rastrigin.
 
 
 ---
@@ -8,9 +8,9 @@
 ## ✨ Đặc điểm chính
 
 - Grey Wolf Optimizer (GWO) chuẩn
-- Thay số ngẫu nhiên bằng **Logistic chaotic map**
-- **Chaos dạng vector theo từng chiều** (không dùng scalar)
-- Cập nhật alpha / beta / delta theo **top-3 mỗi vòng lặp**
+- Thay số ngẫu nhiên bằng Logistic chaotic map
+- Chaos dạng vector theo từng chiều
+- Cập nhật alpha / beta / delta theo top-3 mỗi vòng lặp
 - Tham số điều khiển `a` giảm tuyến tính từ `2 → 0`
 - Tách riêng `chaos_seed` và `random_seed`
 - Áp dụng cho bài toán Rastrigin đa cực trị
